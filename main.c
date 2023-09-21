@@ -204,7 +204,7 @@ int main(int argc, char const *argv[]) {
     
     printf("Generated Password: %s\nPassword Strength: %d\n", pwd, strength);
 
-     free(charList); // Free allocated memory for charList
+    free(charList); // Free allocated memory for charList
     free(pwd);      // Free allocated memory for pwd
 
     return 0;
